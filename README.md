@@ -7,9 +7,12 @@ Scripts for feature extraction (training and test) take in input:
 - the output of the NewsReader Pipeline (http://www.newsreader-project.eu/results/software/) ; or
 - the output of the NewsReader Pipeline (http://www.newsreader-project.eu/results/software/) and the output of the Stanford CoreNLP pipeline (http://stanfordnlp.github.io/CoreNLP/)
 
+As for test data, two feature extraction scripts are available. The scripts ending with "*_te3.py*" deal with TempEval-3 data only; the other with any other dataset or pre-processed text files.
+ 
 Two CRF templates are made available: 
-1) NWR-only: features are obtained only from the NewsReader Pipeline, Predicate Matrix (version 1.1), and WordNet supersenses (for nouns only)
-2) Stanford+NWR: features are obtained by combning together the output of the Stanford CoreNLP tool (basic morph-synatactic and dependency features), the NewsReaer pipeline (the semantic role layer), Predicate Matrix (version 1.1), and and WordNet supersenses (for nouns only)
+-) NWR-only: features are obtained only from the NewsReader Pipeline, Predicate Matrix (version 1.1), and WordNet supersenses (for nouns only)
+-) Stanford+NWR: features are obtained by combning together the output of the Stanford CoreNLP tool (basic morph-synatactic and dependency features), the NewsReaer pipeline (the semantic role layer), Predicate Matrix (version 1.1), and and WordNet supersenses (for nouns only)
+
 
 Evaluation has been conducted on the TempEval-3 Platinum test set. See table below for results and comparison with best 3 sota systems which took part to the TempEval-3 evaluation exercise (for more details https://www.cs.york.ac.uk/semeval-2013/task1/index.php%3Fid=results.html). 
 
@@ -25,6 +28,7 @@ Evaluation has been conducted on the TempEval-3 Platinum test set. See table bel
 Both systems use Gold+Silver data in training.
 Pre-trained models can be downloaded: http://kyoto.let.vu.nl/~caselli/pre-trained-models.tar.gz 
 
+Convertion script from the CRF++ output to other formats (TimeML or XML) will be uploased soon.
 
 References and Links:
 - TempEval-3: https://www.cs.york.ac.uk/semeval-2013/task1/ 
