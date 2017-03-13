@@ -23,6 +23,8 @@ Evaluation has been conducted on the TempEval-3 Platinum test set. See table bel
 | Stanford+NWR | 0.806 | 0.799 | 0.803 | 
 
 Both systems use Gold+Silver data in training.
+Pre-trained models can be downloaded: http://kyoto.let.vu.nl/~caselli/pre-trained-models.tar.gz 
+
 
 References and Links:
 - TempEval-3: https://www.cs.york.ac.uk/semeval-2013/task1/ 
