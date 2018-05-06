@@ -78,5 +78,6 @@ References and Links:
 - Caselli, T., H. Llorens, B. Navarro-Colorado, E. Saquete. (2011). <a href="http://www.aclweb.org/anthology/R/R11/R11-1074.pdf">Data-Driven Approach Using Semantics for Recognizing and Classifying TimeML Events in Italian<a>. In: Proceedings of the International Conference Recent Advances in Natural Language Processing (RANLP 2011), Hissar, Bulgaria pp 533-538.
 - Russo, I., T. Caselli and M. Monachini. 2015. <a href="http://ceur-ws.org/Vol-1399/paper17.pdf">Extracting and Visualising Biographical Events from Wikipedia<a>. In Proceedings of the first Conference on Biographical Data in a Digital World 2015 (BD 2015): 111 -115
 - Caselli, T. and R. Morante. 2016. <a href="https://www.aclweb.org/anthology/S/S16/S16-1193.pdf">VUACLTL at SemEval 2016 Task 12: A CRF Pipeline to Clinical TempEval<a>. In Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval 2016).
+- Caselli, T. and R. Morante. 2018. <a href="http://www.lrec-conf.org/proceedings/lrec2018/pdf/880.pdf">Agreements and Disagreements in Temporal Processing: An Extensive Error Analysis of the TempEval-3 Systems<a>. In Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC2018).
 
 
