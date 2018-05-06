@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>bbc_20130322_721</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="2013-03-22" temporalFunction="false" functionInDocument="CREATION_TIME">2013-03-22</TIMEX3></DCT>
+
+<TITLE>Russian police raid rights group Memorial and other NGOs</TITLE>
+
+<TEXT>
+
+Russian police and tax inspectors have <EVENT eid="e7" class="OCCURRENCE">raided</EVENT> the offices of the human rights group Memorial and other civil society groups which get foreign funding.
+
+Memorial is famous for <EVENT eid="e30" class="OCCURRENCE">documenting</EVENT> human rights abuses in Russia.
+
+The US embassy in Moscow has <EVENT eid="e43" class="REPORTING">voiced</EVENT> concern and <EVENT eid="e46" class="I_ACTION">asked</EVENT> the Russian government for an explanation.
+
+A new Russian law <EVENT eid="e58" class="REPORTING">says</EVENT> foreign-funded non-governmental groups (NGOs) <EVENT eid="e65" class="OCCURRENCE">linked</EVENT> to politics must <EVENT eid="e69" class="OCCURRENCE">register</EVENT> as "foreign agents" - a term which suggests <EVENT eid="e80" class="OCCURRENCE">spying</EVENT>.
+
+In the worst repressions of the Soviet period the label "foreign agents" was <EVENT eid="e97" class="OCCURRENCE">used</EVENT> to <EVENT eid="e99" class="OCCURRENCE">denounce</EVENT> dissidents - or simply political rivals of Joseph Stalin - and could <EVENT eid="e112" class="OCCURRENCE">lead</EVENT> to execution.
+
+Memorial <EVENT eid="e117" class="REPORTING">says</EVENT> inspectors <EVENT eid="e119" class="OCCURRENCE">returned</EVENT> to its Moscow offices on <TIMEX3 type="DATE" value="2013-03-22" tid="t1">Friday</TIMEX3>, having already <EVENT eid="e129" class="OCCURRENCE">seized</EVENT> 600 documents including accounts on <TIMEX3 type="DATE" value="2013-03-21" tid="t2">Thursday</TIMEX3>.
+
+A statement on the Memorial website <EVENT eid="e143" class="REPORTING">said</EVENT> the inspections were directly <EVENT eid="e148" class="OCCURRENCE">linked</EVENT> to the new law on NGOs and the targeted groups' compliance with it.
+
+Memorial director Arseny Roginsky, <EVENT eid="e169" class="OCCURRENCE">quoted</EVENT> by the Russian news website Vesti, <EVENT eid="e177" class="REPORTING">said</EVENT> it was "a complete check on everything <EVENT eid="e186" class="OCCURRENCE">concerned</EVENT> with our sources of funding".
+
+He <EVENT eid="e195" class="I_ACTION">insisted</EVENT> that the NGO law "will not <EVENT eid="e203" class="OCCURRENCE">change</EVENT> our position at all". "We won't <EVENT eid="e214" class="OCCURRENCE">refuse</EVENT> foreign donations, nor will we <EVENT eid="e221" class="OCCURRENCE">register</EVENT> as a 'foreign agent'," he <EVENT eid="e231" class="REPORTING">said</EVENT>.
+
+</TEXT>
+
+<MAKEINSTANCE eventID="e129" eiid="ei182" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e221" eiid="ei190" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e43" eiid="ei188" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e46" eiid="ei189" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e195" eiid="ei194" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e177" eiid="ei191" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei183" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e214" eiid="ei198" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e143" eiid="ei184" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e148" eiid="ei185" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei186" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e203" eiid="ei196" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e65" eiid="ei193" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e69" eiid="ei195" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e99" eiid="ei201" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e97" eiid="ei200" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e119" eiid="ei205" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e112" eiid="ei203" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e117" eiid="ei204" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e186" eiid="ei199" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e58" eiid="ei192" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e231" eiid="ei202" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e169" eiid="ei187" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e80" eiid="ei197" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei198" relatedToEventInstance="ei190" />
+
+<TLINK lid="l2" relType="AFTER" eventInstanceID="ei190" relatedToEventInstance="ei202" />
+
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei202" relatedToTime="t0" />
+
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei182" relatedToTime="t2" />
+
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei191" relatedToTime="t0" />
+
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei194" relatedToTime="t0" />
+
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei188" relatedToTime="t0" />
+
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei200" relatedToTime="t0" />
+
+<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei192" relatedToTime="t0" />
+
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei193" relatedToTime="t0" />
+
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei203" relatedToTime="t0" />
+
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei204" relatedToTime="t0" />
+
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei184" relatedToTime="t0" />
+</TimeML>

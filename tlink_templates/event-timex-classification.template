@@ -1,0 +1,82 @@
+# the / is used for combinations
+
+# Unigram
+
+# 0 file_id | 1 sentence-id | 2 unique-id-E1 | 3 sentence-token-Id-E1 | 4 token-E1 | 5 lemma-E1 | 6 pos-E1 | 7 dep-rel-E1 | 8 gov-lemma-E1 | 9 pos-gov-E1 |
+# 10 vn-class-E1 | 11 fn-class-E1 | 12 wn-class | 13 E1-tense | 14 E1-aspect | 15 E1-class | 16 token-E2 | 
+# 17 pos-E2 | 18 dep-rel-E2 | 19 gov-lemma-E2 | 20 pos-gov-E2 | 21 E2-class |  22 vn-class-E2 | 23 fn-class-E2 | 24 wn-class-E2 | 
+# 25 token-distance-E1-E2 | 26 common-path pos | 27 common-path dep-rel | 28 common-path pos+dep-rel | 29 path-source pos | 30 path-source dep-rel | 31 path-source
+# pos+dep-rel | 32 path-target pos | 33 path-target dep-rel | 34 path-target pos+dep-rel | 35 token-signal-E1-E2 | 36 token-signal begin S | 
+# 37 TLINK-existence
+#
+
+
+
+
+
+# Event1 - Features 
+################################
+U1:%x[0,4]
+U2:%x[0,5]
+U3:%x[0,6]
+U4:%x[0,7]
+U5:%x[0,8]
+U6:%x[0,6]/%x[0,7]/%x[0,9] #combo pos+dep-rel+pos-gov
+U10:%x[0,13]
+U11:%x[0,14]
+U13:%x[0,13]/%x[0,14] # combo tense-aspect E1
+U43:%x[0,15]
+
+# Event1 - Semantics - Lexicon
+#################################
+U7:%x[0,10]
+U8:%x[0,11]
+U9:%x[0,12]
+
+
+# Event2 - Features
+###############################
+U14:%x[0,16]
+U15:%x[0,17]
+U16:%x[0,18]
+U17:%x[0,19]
+U18:%x[0,20]
+U19:%x[0,17]/%x[0,18]/%x[0,20]  #combo pos+dep-rel+pos-gov
+U20:%x[0,21]
+U39:%x[0,19]/%x[0,20]/%x[0,21]
+
+# Event2 - Semantics
+###############################
+U24:%x[0,22]
+U25:%x[0,23]
+U26:%x[0,24]
+
+
+# Path - E1 
+#################################
+U27:%x[0,26]
+U28:%x[0,27]
+U29:%x[0,28]
+
+
+# Path E2
+################################
+U30:%x[0,29]
+U31:%x[0,30]
+U32:%x[0,31]
+
+# Path E1 - E2
+###############################
+U33:%x[0,32]
+U34:%x[0,33]
+U35:%x[0,34]
+
+# E1 - E2 : event data combination
+#######################################
+
+U36:%x[0,25]
+U37:%x[0,35]
+U38:%x[0,36]
+
+
+

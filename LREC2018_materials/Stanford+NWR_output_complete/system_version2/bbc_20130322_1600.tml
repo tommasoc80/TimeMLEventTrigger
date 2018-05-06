@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>bbc_20130322_1600</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="2013-03-22" temporalFunction="false" functionInDocument="CREATION_TIME">2013-03-22</TIMEX3></DCT>
+
+<TITLE>Landslip body found as weather bites</TITLE>
+
+<TEXT>
+
+Heavy snow is <EVENT eid="e4" class="OCCURRENCE">causing</EVENT> disruption to <EVENT eid="e7" class="OCCURRENCE">transport</EVENT> across the UK, with heavy rainfall <EVENT eid="e15" class="OCCURRENCE">bringing</EVENT> flooding to the south-west of England.
+
+Rescuers <EVENT eid="e24" class="OCCURRENCE">searching</EVENT> for a woman <EVENT eid="e28" class="STATE">trapped</EVENT> in a landslide at her home in Looe, Cornwall, <EVENT eid="e40" class="REPORTING">said</EVENT> they had <EVENT eid="e43" class="OCCURRENCE">found</EVENT> a body.
+
+Over 200,000 Belfast customers were <EVENT eid="e52" class="OCCURRENCE">affected</EVENT> by a blackout but power is <EVENT eid="e59" class="ASPECTUAL">starting</EVENT> to be <EVENT eid="e62" class="OCCURRENCE">restored</EVENT>.
+
+Northern Ireland's World Cup qualifier with Russia has been <EVENT eid="e74" class="OCCURRENCE">postponed</EVENT> until 15:00 GMT <TIMEX3 type="DATE" value="2013-03-16" tid="t1">Saturday</TIMEX3> due to heavy snow.
+
+There are 12 flood warnings in the South West, with Met Office warnings for snow <EVENT eid="e100" class="OCCURRENCE">covering</EVENT> much of the UK.
+
+This <EVENT eid="e107" class="OCCURRENCE">comes</EVENT> just over a week before the <EVENT eid="e114" class="ASPECTUAL">start</EVENT> of British <TIMEX3 type="DATE" value="XXXX-XX-XX" tid="t2">Summer Time</TIMEX3>.
+
+BBC forecasters <EVENT eid="e122" class="REPORTING">said</EVENT> the snow would <EVENT eid="e126" class="OCCURRENCE">cause</EVENT> travel disruption across northern parts of the UK on <TIMEX3 type="DATE" value="2013-03-22" tid="t3">Friday</TIMEX3>, with some 20cm-40cm (8in-16in) <EVENT eid="e144" class="OCCURRENCE">falling</EVENT> in places. Atrocious conditions could be <EVENT eid="e152" class="I_STATE">expected</EVENT> on high ground, they <EVENT eid="e158" class="REPORTING">said</EVENT>.
+
+Roads in northern parts of Wales, the Midlands into the Pennines, southern Scotland and Northern Ireland would be the worst <EVENT eid="e182" class="OCCURRENCE">affected</EVENT>, while gale force winds would <EVENT eid="e189" class="OCCURRENCE">blow</EVENT> snow and <EVENT eid="e192" class="OCCURRENCE">drifts</EVENT> across trans-Pennine routes, they <EVENT eid="e198" class="OCCURRENCE">added</EVENT>.
+
+</TEXT>
+
+<MAKEINSTANCE eventID="e62" eiid="ei132" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e144" eiid="ei121" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e114" eiid="ei138" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e74" eiid="ei135" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e126" eiid="ei140" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e122" eiid="ei139" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e192" eiid="ei133" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e198" eiid="ei134" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e40" eiid="ei126" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e43" eiid="ei127" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei120" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei119" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei118" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e189" eiid="ei131" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e182" eiid="ei129" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e52" eiid="ei128" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e59" eiid="ei130" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e158" eiid="ei125" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e152" eiid="ei123" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei124" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei122" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e107" eiid="ei137" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e100" eiid="ei136" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+
+<TLINK lid="l1" relType="AFTER" eventInstanceID="ei129" relatedToEventInstance="ei134" />
+
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei118" relatedToEventInstance="ei119" />
+
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei128" relatedToEventInstance="ei130" />
+
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei135" relatedToTime="t0" />
+
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei126" relatedToTime="t0" />
+
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei126" relatedToEventInstance="ei127" />
+
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei140" relatedToTime="t3" />
+
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei129" relatedToTime="t0" />
+
+<TLINK lid="l9" relType="INCLUDES" eventInstanceID="ei120" relatedToTime="t0" />
+
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei128" relatedToEventInstance="ei132" />
+
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei131" relatedToEventInstance="ei134" />
+
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei124" relatedToTime="t0" />
+
+<TLINK lid="l13" relType="INCLUDES" eventInstanceID="ei122" relatedToEventInstance="ei126" />
+
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei131" relatedToEventInstance="ei133" />
+
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei123" relatedToEventInstance="ei125" />
+
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei125" relatedToTime="t0" />
+
+<TLINK lid="l17" relType="INCLUDES" eventInstanceID="ei123" relatedToTime="t0" />
+
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei134" relatedToTime="t0" />
+
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei136" relatedToTime="t0" />
+
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei122" relatedToEventInstance="ei124" />
+
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei127" relatedToTime="t0" />
+
+<TLINK lid="l22" relType="INCLUDES" eventInstanceID="ei130" relatedToTime="t0" />
+
+<TLINK lid="l23" relType="INCLUDES" eventInstanceID="ei118" relatedToEventInstance="ei120" />
+
+<TLINK lid="l24" relType="INCLUDES" eventInstanceID="ei139" relatedToEventInstance="ei121" />
+
+<TLINK lid="l25" relType="AFTER" eventInstanceID="ei131" relatedToTime="t0" />
+
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei124" relatedToEventInstance="ei126" />
+
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei121" relatedToTime="t0" />
+
+<TLINK lid="l28" relType="BEFORE" eventInstanceID="ei119" relatedToEventInstance="ei120" />
+
+<TLINK lid="l29" relType="AFTER" eventInstanceID="ei124" relatedToEventInstance="ei127" />
+
+<TLINK lid="l30" relType="AFTER" eventInstanceID="ei140" relatedToTime="t0" />
+
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei129" relatedToEventInstance="ei133" />
+
+<TLINK lid="l32" relType="IS_INCLUDED" eventInstanceID="ei121" relatedToTime="t3" />
+
+<TLINK lid="l33" relType="BEFORE" eventInstanceID="ei138" relatedToTime="t0" />
+
+<TLINK lid="l34" relType="DURING" eventInstanceID="ei133" relatedToTime="t0" />
+
+<TLINK lid="l35" relType="BEFORE" eventInstanceID="ei130" relatedToEventInstance="ei132" />
+
+<TLINK lid="l36" relType="IS_INCLUDED" eventInstanceID="ei139" relatedToTime="t3" />
+
+<TLINK lid="l37" relType="BEFORE" eventInstanceID="ei132" relatedToTime="t0" />
+
+<TLINK lid="l38" relType="BEFORE" eventInstanceID="ei139" relatedToEventInstance="ei140" />
+
+<TLINK lid="l39" relType="INCLUDES" eventInstanceID="ei122" relatedToTime="t0" />
+
+<TLINK lid="l40" relType="AFTER" eventInstanceID="ei119" relatedToTime="t0" />
+
+<TLINK lid="l41" relType="AFTER" eventInstanceID="ei122" relatedToEventInstance="ei127" />
+
+<TLINK lid="l42" relType="BEFORE" eventInstanceID="ei128" relatedToTime="t0" />
+
+<TLINK lid="l43" relType="INCLUDES" eventInstanceID="ei118" relatedToTime="t0" />
+
+<TLINK lid="l44" relType="BEFORE" eventInstanceID="ei139" relatedToTime="t0" />
+
+<TLINK lid="l45" relType="BEFORE" eventInstanceID="ei133" relatedToEventInstance="ei134" />
+
+<TLINK lid="l46" relType="BEFORE" eventInstanceID="ei137" relatedToEventInstance="ei138" />
+
+<TLINK lid="l47" relType="DURING" eventInstanceID="ei137" relatedToTime="t0" />
+
+<TLINK lid="l48" relType="SIMULTANEOUS" eventInstanceID="ei140" relatedToEventInstance="ei121" />
+
+<TLINK lid="l49" relType="AFTER" eventInstanceID="ei129" relatedToEventInstance="ei131" />
+</TimeML>

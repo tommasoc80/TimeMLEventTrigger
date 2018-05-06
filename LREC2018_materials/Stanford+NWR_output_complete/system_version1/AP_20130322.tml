@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AP_20130322</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="2013-03-22" temporalFunction="false" functionInDocument="CREATION_TIME">March 22, 2013</TIMEX3></DCT>
+
+<TITLE>105 U.S. Kids Died From Flu, CDC Says</TITLE>
+
+<TEXT>
+
+The flu season is <EVENT eid="e5" class="OCCURRENCE">winding</EVENT> down, and it has <EVENT eid="e11" class="OCCURRENCE">killed</EVENT> 105 children so far - about the average toll.
+
+The <TIMEX3 type="DATE" value="XXXX-XX-XX" tid="t1">season</TIMEX3> <EVENT eid="e24" class="ASPECTUAL">started</EVENT> about <TIMEX3 type="DURATION" value="P1M" tid="t2">a month</TIMEX3> earlier than usual, <EVENT eid="e32" class="OCCURRENCE">sparking</EVENT> concerns it might <EVENT eid="e36" class="OCCURRENCE">turn</EVENT> into the worst in <TIMEX3 type="DURATION" value="P1DE" tid="t3">a decade</TIMEX3>. It <EVENT eid="e45" class="ASPECTUAL">ended</EVENT> up being very hard on the elderly, but was moderately severe overall, <EVENT eid="e60" class="REPORTING">according</EVENT> to the Centers for Disease Control and Prevention.
+
+Six of the pediatric deaths were <EVENT eid="e76" class="REPORTING">reported</EVENT> in <TIMEX3 type="DATE" value="2013-W11" tid="t4">the last week</TIMEX3>, and it's possible there will be more, <EVENT eid="e91" class="REPORTING">said</EVENT> the CDC's Dr. Michael Jhung <EVENT eid="e98" class="REPORTING">said</EVENT> <TIMEX3 type="DATE" value="2013-03-22" tid="t5">Friday</TIMEX3>.
+
+Roughly 100 children <EVENT eid="e104" class="OCCURRENCE">die</EVENT> in an average flu season. One exception was the swine flu <EVENT eid="e117" class="OCCURRENCE">pandemic</EVENT> of <TIMEX3 type="DATE" value="2009" tid="t6">2009</TIMEX3>-<TIMEX3 type="DATE" value="2010" tid="t7">2010</TIMEX3>, when 348 children <EVENT eid="e126" class="OCCURRENCE">died</EVENT>.
+
+The CDC <EVENT eid="e130" class="I_ACTION">recommends</EVENT> that all children ages <TIMEX3 type="DURATION" value="P6M" tid="t8">6 months</TIMEX3> and older be <EVENT eid="e140" class="OCCURRENCE">vaccinated</EVENT> against flu each season, though only about half <EVENT eid="e150" class="OCCURRENCE">get</EVENT> a flu <EVENT eid="e153" class="OCCURRENCE">shot</EVENT> or nasal spray.
+
+All but four of the children who <EVENT eid="e165" class="OCCURRENCE">died</EVENT> were old enough to be <EVENT eid="e171" class="OCCURRENCE">vaccinated</EVENT>, but 90 percent of them did not <EVENT eid="e180" class="OCCURRENCE">get</EVENT> vaccinated, CDC officials <EVENT eid="e185" class="REPORTING">said</EVENT>.
+
+<TIMEX3 type="DATE" value="2013" tid="t9">This year</TIMEX3>'s vaccine was <EVENT eid="e192" class="I_STATE">considered</EVENT> effective in children, though it didn't <EVENT eid="e201" class="OCCURRENCE">work</EVENT> very well in older people. And the dominant flu strain early in <TIMEX3 type="DATE" value="XXXX-XX-XX" tid="t10">the season</TIMEX3> was one that <EVENT eid="e220" class="OCCURRENCE">tends</EVENT> to <EVENT eid="e222" class="OCCURRENCE">cause</EVENT> more severe illness.
+
+The government only does a national flu death count for children. But it does <EVENT eid="e242" class="OCCURRENCE">track</EVENT> hospitalization rates for people 65 and older, and those statistics have been grim.
+
+In that group, 177 out of every 100,000 were <EVENT eid="e268" class="OCCURRENCE">hospitalized</EVENT> with flu-related illness in <TIMEX3 type="DURATION" value="PXM" tid="t11">the past several months</TIMEX3>. That's more than 2 1/2 times higher than any other recent season.
+
+This flu season <EVENT eid="e295" class="ASPECTUAL">started</EVENT> in <TIMEX3 type="DATE" value="2012-12" tid="t12">early December</TIMEX3>, <TIMEX3 type="DATE" value="XXXX-XX" tid="t13">a month earlier than usual</TIMEX3>, and <EVENT eid="e307" class="OCCURRENCE">peaked</EVENT> by <TIMEX3 type="DATE" value="2013" tid="t14">the end of year</TIMEX3>. Since then, flu reports have been <EVENT eid="e321" class="OCCURRENCE">dropping</EVENT> off throughout the country.
+
+"We <EVENT eid="e329" class="OCCURRENCE">appear</EVENT> to be <EVENT eid="e332" class="OCCURRENCE">getting</EVENT> close to the end of flu season," Jhung <EVENT eid="e343" class="REPORTING">said</EVENT>.
+
+</TEXT>
+
+<MAKEINSTANCE eventID="e295" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e185" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e180" eiid="ei15" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e171" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e307" eiid="ei14" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e165" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e126" eiid="ei33" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei2" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e343" eiid="ei23" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e242" eiid="ei29" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e91" eiid="ei24" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e98" eiid="ei27" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e332" eiid="ei32" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e201" eiid="ei21" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e117" eiid="ei30" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e60" eiid="ei18" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e150" eiid="ei5" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e153" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e36" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e32" eiid="ei8" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e329" eiid="ei16" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e321" eiid="ei20" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e192" eiid="ei19" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e104" eiid="ei28" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e268" eiid="ei31" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e76" eiid="ei22" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e140" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e222" eiid="ei26" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e220" eiid="ei25" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei3" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e130" eiid="ei1" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e45" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t0" />
+
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei33" relatedToTime="t6" />
+
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei4" relatedToEventInstance="ei5" />
+
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToEventInstance="ei23" />
+
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t14" />
+
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t3" />
+
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei30" relatedToTime="t0" />
+
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0" />
+
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei17" relatedToTime="t0" />
+
+<TLINK lid="l11" relType="INCLUDES" eventInstanceID="ei32" relatedToEventInstance="ei23" />
+
+<TLINK lid="l12" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei7" />
+
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei23" relatedToTime="t0" />
+
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei22" relatedToTime="t0" />
+
+<TLINK lid="l15" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t12" />
+
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei8" relatedToEventInstance="ei9" />
+
+<TLINK lid="l17" relType="IS_INCLUDED" eventInstanceID="ei30" relatedToTime="t6" />
+
+<TLINK lid="l18" relType="IS_INCLUDED" eventInstanceID="ei31" relatedToTime="t11" />
+
+<TLINK lid="l19" relType="IS_INCLUDED" eventInstanceID="ei27" relatedToTime="t5" />
+
+<TLINK lid="l20" relType="AFTER" eventInstanceID="ei29" relatedToTime="t0" />
+
+<TLINK lid="l21" relType="INCLUDES" eventInstanceID="ei2" relatedToTime="t0" />
+
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei24" relatedToEventInstance="ei27" />
+</TimeML>

@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>WSJ_20130322_804</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="2013-03-22" temporalFunction="false" functionInDocument="CREATION_TIME">March 22, 2013</TIMEX3></DCT>
+
+<TITLE>Health Insurers Warn on Premiums</TITLE>
+
+<TEXT>
+
+Health insurers are privately <EVENT eid="e5" class="I_ACTION">warning</EVENT> brokers that premiums for many individuals and small businesses could <EVENT eid="e16" class="OCCURRENCE">increase</EVENT> sharply <TIMEX3 type="DATE" value="2014" tid="t1">next year</TIMEX3> because of the health-care overhaul law, with the nation's biggest firm projecting that rates could more than double for some consumers <EVENT eid="e43" class="OCCURRENCE">buying</EVENT> their own plans.
+
+The projections, made in sessions with brokers and agents, <EVENT eid="e59" class="OCCURRENCE">provide</EVENT> some of the most concrete evidence yet of how much insurance companies might <EVENT eid="e73" class="OCCURRENCE">increase</EVENT> prices when major provisions of the law kick in <TIMEX3 type="DATE" value="2014" tid="t2">next year</TIMEX3> - a subject of rigorous debate.
+
+The projected <EVENT eid="e94" class="OCCURRENCE">increases</EVENT> are at odds with what the Obama Administration <EVENT eid="e103" class="REPORTING">says</EVENT> consumers should be <EVENT eid="e107" class="I_STATE">expecting</EVENT> overall in terms of cost. The Department of Health and Human Services <EVENT eid="e121" class="REPORTING">says</EVENT> that the law will "<EVENT eid="e127" class="OCCURRENCE">make</EVENT> health-care coverage more affordable and accessible," <EVENT eid="e136" class="I_ACTION">pointing</EVENT> to a 2009 analysis by the Congressional Budget Office that <EVENT eid="e147" class="REPORTING">says</EVENT> average individual premiums, on an apples-to-apples basis, would be <EVENT eid="e159" class="STATE">lower</EVENT>.
+
+The gulf between the pricing <EVENT eid="e166" class="OCCURRENCE">talk</EVENT> from some insurers and the government projections <EVENT eid="e174" class="I_ACTION">suggests</EVENT> how <EVENT eid="e176" class="OCCURRENCE">complicated</EVENT> the law's effects will be. Carriers will be <EVENT eid="e187" class="OCCURRENCE">filing</EVENT> proposed prices with regulators over <TIMEX3 type="DURATION" value="PXM" tid="t3">the next few months</TIMEX3>.
+
+Part of the murkiness <EVENT eid="e202" class="OCCURRENCE">stems</EVENT> from the role of government subsidies. Federal subsidies under the health law will <EVENT eid="e217" class="I_ACTION">help</EVENT> lower-income consumers defray costs, but they are generally not <EVENT eid="e228" class="OCCURRENCE">included</EVENT> in insurers' premium projections. Many consumers will be <EVENT eid="e239" class="OCCURRENCE">getting</EVENT> more generous plans because of new requirements in the law. The effects of the law will <EVENT eid="e257" class="OCCURRENCE">vary</EVENT> widely, and insurers and other analysts <EVENT eid="e265" class="I_ACTION">agree</EVENT> that some consumers and small businesses will likely <EVENT eid="e274" class="PERCEPTION">see</EVENT> premiums <EVENT eid="e276" class="OCCURRENCE">go</EVENT> down.
+
+<EVENT eid="e279" class="ASPECTUAL">Starting</EVENT> <TIMEX3 type="DATE" value="2014" tid="t4">next year</TIMEX3>, the law will <EVENT eid="e286" class="I_ACTION">block</EVENT> insurers from <EVENT eid="e289" class="OCCURRENCE">refusing</EVENT> to <EVENT eid="e291" class="OCCURRENCE">sell</EVENT> coverage or <EVENT eid="e294" class="OCCURRENCE">setting</EVENT> premiums based on people's health histories, and will <EVENT eid="e305" class="OCCURRENCE">reduce</EVENT> their ability to <EVENT eid="e309" class="OCCURRENCE">set</EVENT> rates based on age. That can <EVENT eid="e317" class="OCCURRENCE">raise</EVENT> coverage prices for younger, healthier consumers, while <EVENT eid="e327" class="OCCURRENCE">reining</EVENT> them in for older, sicker ones. The rules can also <EVENT eid="e340" class="STATE">affect</EVENT> small businesses, which sometimes <EVENT eid="e346" class="OCCURRENCE">pay</EVENT> premiums tied to employees' health status and <EVENT eid="e355" class="REPORTING">claims</EVENT> history.
+
+</TEXT>
+
+<MAKEINSTANCE eventID="e59" eiid="ei737" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e187" eiid="ei722" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e274" eiid="ei708" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e279" eiid="ei711" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e176" eiid="ei719" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e305" eiid="ei720" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e309" eiid="ei721" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e286" eiid="ei712" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e127" eiid="ei739" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e121" eiid="ei738" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e289" eiid="ei714" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e239" eiid="ei736" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e166" eiid="ei716" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e340" eiid="ei727" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e136" eiid="ei705" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e276" eiid="ei710" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e346" eiid="ei729" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e107" eiid="ei735" tense="NONE" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e73" eiid="ei725" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e294" eiid="ei733" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e174" eiid="ei718" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e202" eiid="ei726" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e228" eiid="ei732" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e291" eiid="ei715" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e257" eiid="ei703" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e94" eiid="ei730" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e159" eiid="ei713" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e43" eiid="ei717" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e265" eiid="ei706" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e217" eiid="ei728" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei704" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e103" eiid="ei734" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e317" eiid="ei723" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei707" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e147" eiid="ei709" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e355" eiid="ei731" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e327" eiid="ei724" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei722" relatedToTime="t3" />
+
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei707" relatedToTime="t1" />
+
+<TLINK lid="l3" relType="INCLUDES" eventInstanceID="ei704" relatedToTime="t0" />
+
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei709" relatedToTime="t0" />
+
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei718" relatedToTime="t0" />
+
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei703" relatedToEventInstance="ei706" />
+
+<TLINK lid="l7" relType="INCLUDES" eventInstanceID="ei729" relatedToTime="t0" />
+
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei739" relatedToEventInstance="ei705" />
+
+<TLINK lid="l9" relType="SIMULTANEOUS" eventInstanceID="ei715" relatedToEventInstance="ei733" />
+
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei731" relatedToTime="t0" />
+
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei738" relatedToTime="t0" />
+
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei707" relatedToTime="t2" />
+
+<TLINK lid="l13" relType="INCLUDES" eventInstanceID="ei727" relatedToTime="t0" />
+
+<TLINK lid="l14" relType="INCLUDES" eventInstanceID="ei706" relatedToTime="t0" />
+
+<TLINK lid="l15" relType="INCLUDES" eventInstanceID="ei716" relatedToEventInstance="ei719" />
+
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei707" relatedToTime="t4" />
+
+<TLINK lid="l17" relType="IS_INCLUDED" eventInstanceID="ei711" relatedToTime="t0" />
+
+<TLINK lid="l18" relType="AFTER" eventInstanceID="ei727" relatedToEventInstance="ei729" />
+
+<TLINK lid="l19" relType="SIMULTANEOUS" eventInstanceID="ei714" relatedToEventInstance="ei733" />
+
+<TLINK lid="l20" relType="AFTER" eventInstanceID="ei730" relatedToEventInstance="ei735" />
+
+<TLINK lid="l21" relType="IS_INCLUDED" eventInstanceID="ei737" relatedToTime="t0" />
+</TimeML>

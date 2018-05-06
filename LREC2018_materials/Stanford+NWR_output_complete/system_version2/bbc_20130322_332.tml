@@ -1,0 +1,297 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>bbc_20130322_332</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="2013-03-22" temporalFunction="false" functionInDocument="CREATION_TIME">2013-03-22</TIMEX3></DCT>
+
+<TITLE>BP to buy back $8bn in shares after Russian sale</TITLE>
+
+<TEXT>
+
+Oil giant BP has <EVENT eid="e5" class="REPORTING">said</EVENT> it will <EVENT eid="e8" class="OCCURRENCE">buy</EVENT> back $8bn of shares, <EVENT eid="e15" class="OCCURRENCE">returning</EVENT> to shareholders the money they had <EVENT eid="e22" class="OCCURRENCE">put</EVENT> into a complicated Russian venture.
+
+It <EVENT eid="e30" class="REPORTING">said</EVENT> it "<EVENT eid="e33" class="I_STATE">expected</EVENT> to <EVENT eid="e35" class="OCCURRENCE">return</EVENT> to BP shareholders an amount equivalent to the value of the company's original investment in TNK-BP".
+
+BP <EVENT eid="e56" class="I_ACTION">agreed</EVENT> to <EVENT eid="e58" class="OCCURRENCE">sell</EVENT> back its 50% stake in TNK-BP to Russia's Rosneft in <TIMEX3 type="DATE" value="2012-10" tid="t1">October</TIMEX3> in <EVENT eid="e73" class="OCCURRENCE">return</EVENT> for $17.1bn in cash and shares.
+
+It <EVENT eid="e84" class="OCCURRENCE">invested</EVENT> in TNK-BP in <TIMEX3 type="DATE" value="2003" tid="t2">2003</TIMEX3>.
+
+BP chairman Carl-Henric Svanberg <EVENT eid="e94" class="REPORTING">said</EVENT>: "We <EVENT eid="e98" class="I_STATE">expect</EVENT> our stake in Rosneft will <EVENT eid="e104" class="OCCURRENCE">generate</EVENT> long-term value for BP and its shareholders. But this buyback programme should also <EVENT eid="e119" class="OCCURRENCE">allow</EVENT> our shareholders to <EVENT eid="e123" class="PERCEPTION">see</EVENT> benefits in the near-term from the value we have <EVENT eid="e133" class="OCCURRENCE">realised</EVENT> by <EVENT eid="e135" class="OCCURRENCE">reshaping</EVENT> our Russian business."
+
+BP <EVENT eid="e142" class="I_STATE">expects</EVENT> the share buyback programme could <EVENT eid="e148" class="OCCURRENCE">take</EVENT> between <TIMEX3 type="DATE" value="P12M" tid="t3">12</TIMEX3> and <TIMEX3 type="DURATION" value="P18M" tid="t4">18 months</TIMEX3> to <EVENT eid="e155" class="OCCURRENCE">complete</EVENT>.
+
+"In <TIMEX3 type="DATE" value="2003" tid="t5">2003</TIMEX3> BP <EVENT eid="e161" class="OCCURRENCE">invested</EVENT> around $8bn in cash, shares and assets in the formation of TNK-BP," the oil giant <EVENT eid="e181" class="REPORTING">said</EVENT>. "Over the following decade BP <EVENT eid="e189" class="OCCURRENCE">received</EVENT> a total of $19bn in dividends from the joint venture."
+
+Although BP's <EVENT eid="e206" class="OCCURRENCE">involvement</EVENT> in the Russian joint venture has been lucrative, relations with its partners have often been fraught with disagreement. In <TIMEX3 type="DATE" value="2011" tid="t6">2011</TIMEX3>, the AAR consortium <EVENT eid="e233" class="I_ACTION">attempted</EVENT> to <EVENT eid="e235" class="I_ACTION">block</EVENT> a drilling joint <EVENT eid="e239" class="OCCURRENCE">venture</EVENT> in the Arctic between BP and Rosneft through the courts and the plan was eventually <EVENT eid="e255" class="OCCURRENCE">dropped</EVENT>.
+
+As well as internal wrangles, BP employees at TNK-BP have <EVENT eid="e268" class="OCCURRENCE">fallen</EVENT> foul of Russian authorities.
+
+While <EVENT eid="e275" class="STATE">serving</EVENT> as head of TNK-BP, Bob Dudley - <TIMEX3 type="DATE" value="PRESENT_REF" tid="t7">now</TIMEX3> the head of BP as a whole - had his office <EVENT eid="e296" class="OCCURRENCE">bugged</EVENT> and <EVENT eid="e298" class="OCCURRENCE">raided</EVENT> by the police and <EVENT eid="e303" class="OCCURRENCE">met</EVENT> with onerous back-tax demands, legal action and visa problems.
+
+He eventually <EVENT eid="e317" class="OCCURRENCE">fled</EVENT> the country in <TIMEX3 type="DATE" value="2008" tid="t8">2008</TIMEX3>.
+
+But the tie-up with Rosneft will <EVENT eid="e329" class="OCCURRENCE">keep</EVENT> BP in Russia, <EVENT eid="e334" class="OCCURRENCE">allowing</EVENT> it to <EVENT eid="e337" class="ASPECTUAL">continue</EVENT> to <EVENT eid="e339" class="I_ACTION">explore</EVENT> and <EVENT eid="e341" class="OCCURRENCE">exploit</EVENT> the country's vast energy resources, including in the Arctic region. And Rosneft benefits from BP's expertise in <EVENT eid="e363" class="I_ACTION">exploring</EVENT> in difficult and potentially hazardous conditions.
+
+</TEXT>
+
+<MAKEINSTANCE eventID="e317" eiid="ei165" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e35" eiid="ei156" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei153" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e33" eiid="ei155" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e363" eiid="ei141" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e73" eiid="ei162" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e268" eiid="ei146" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e239" eiid="ei178" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e135" eiid="ei144" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e133" eiid="ei142" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e255" eiid="ei181" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e22" eiid="ei151" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e104" eiid="ei175" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e206" eiid="ei168" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e161" eiid="ei166" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e339" eiid="ei170" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e337" eiid="ei169" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e334" eiid="ei172" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei148" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e148" eiid="ei150" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e142" eiid="ei147" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e58" eiid="ei164" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e56" eiid="ei163" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e341" eiid="ei143" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e189" eiid="ei160" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e181" eiid="ei161" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e119" eiid="ei179" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei154" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei145" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e98" eiid="ei174" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e94" eiid="ei173" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e233" eiid="ei176" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e235" eiid="ei177" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e303" eiid="ei159" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e155" eiid="ei152" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e84" eiid="ei171" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e275" eiid="ei149" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e296" eiid="ei157" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e298" eiid="ei158" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e123" eiid="ei180" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e329" eiid="ei167" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+
+<TLINK lid="l1" relType="INCLUDES" eventInstanceID="ei172" relatedToTime="t0" />
+
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei167" relatedToEventInstance="ei169" />
+
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei165" relatedToTime="t8" />
+
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei150" relatedToEventInstance="ei152" />
+
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei147" relatedToEventInstance="ei150" />
+
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei176" relatedToEventInstance="ei177" />
+
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei159" relatedToTime="t7" />
+
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei181" relatedToTime="t0" />
+
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei167" relatedToEventInstance="ei170" />
+
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei179" relatedToTime="t0" />
+
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei178" relatedToEventInstance="ei181" />
+
+<TLINK lid="l12" relType="AFTER" eventInstanceID="ei177" relatedToEventInstance="ei181" />
+
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei152" relatedToTime="t4" />
+
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei172" relatedToEventInstance="ei143" />
+
+<TLINK lid="l15" relType="IS_INCLUDED" eventInstanceID="ei181" relatedToTime="t6" />
+
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei178" relatedToTime="t6" />
+
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei163" relatedToEventInstance="ei164" />
+
+<TLINK lid="l18" relType="AFTER" eventInstanceID="ei177" relatedToTime="t0" />
+
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei172" relatedToEventInstance="ei169" />
+
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei176" relatedToEventInstance="ei181" />
+
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei172" relatedToEventInstance="ei170" />
+
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei155" relatedToTime="t0" />
+
+<TLINK lid="l23" relType="BEFORE" eventInstanceID="ei173" relatedToEventInstance="ei175" />
+
+<TLINK lid="l24" relType="BEFORE" eventInstanceID="ei163" relatedToTime="t0" />
+
+<TLINK lid="l25" relType="IS_INCLUDED" eventInstanceID="ei141" relatedToTime="t0" />
+
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei179" relatedToEventInstance="ei142" />
+
+<TLINK lid="l27" relType="AFTER" eventInstanceID="ei167" relatedToTime="t0" />
+
+<TLINK lid="l28" relType="IS_INCLUDED" eventInstanceID="ei150" relatedToTime="t4" />
+
+<TLINK lid="l29" relType="IS_INCLUDED" eventInstanceID="ei166" relatedToTime="t5" />
+
+<TLINK lid="l30" relType="IS_INCLUDED" eventInstanceID="ei163" relatedToTime="t1" />
+
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei161" relatedToTime="t0" />
+
+<TLINK lid="l32" relType="BEFORE" eventInstanceID="ei176" relatedToTime="t0" />
+
+<TLINK lid="l33" relType="IS_INCLUDED" eventInstanceID="ei157" relatedToTime="t7" />
+
+<TLINK lid="l34" relType="BEFORE" eventInstanceID="ei146" relatedToTime="t0" />
+
+<TLINK lid="l35" relType="BEFORE" eventInstanceID="ei159" relatedToTime="t0" />
+
+<TLINK lid="l36" relType="BEFORE" eventInstanceID="ei165" relatedToTime="t0" />
+
+<TLINK lid="l37" relType="BEFORE" eventInstanceID="ei163" relatedToEventInstance="ei162" />
+
+<TLINK lid="l38" relType="BEFORE" eventInstanceID="ei154" relatedToEventInstance="ei145" />
+
+<TLINK lid="l39" relType="BEFORE" eventInstanceID="ei160" relatedToTime="t0" />
+
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei171" relatedToTime="t0" />
+
+<TLINK lid="l41" relType="BEFORE" eventInstanceID="ei151" relatedToTime="t0" />
+
+<TLINK lid="l42" relType="BEFORE" eventInstanceID="ei158" relatedToEventInstance="ei159" />
+
+<TLINK lid="l43" relType="BEFORE" eventInstanceID="ei148" relatedToTime="t0" />
+
+<TLINK lid="l44" relType="BEFORE" eventInstanceID="ei155" relatedToEventInstance="ei156" />
+
+<TLINK lid="l45" relType="INCLUDES" eventInstanceID="ei174" relatedToTime="t0" />
+
+<TLINK lid="l46" relType="BEFORE" eventInstanceID="ei149" relatedToEventInstance="ei159" />
+
+<TLINK lid="l47" relType="BEFORE" eventInstanceID="ei145" relatedToEventInstance="ei148" />
+
+<TLINK lid="l48" relType="AFTER" eventInstanceID="ei156" relatedToTime="t0" />
+
+<TLINK lid="l49" relType="IS_INCLUDED" eventInstanceID="ei177" relatedToTime="t6" />
+
+<TLINK lid="l50" relType="BEFORE" eventInstanceID="ei153" relatedToEventInstance="ei156" />
+
+<TLINK lid="l51" relType="IS_INCLUDED" eventInstanceID="ei162" relatedToTime="t1" />
+
+<TLINK lid="l52" relType="IS_INCLUDED" eventInstanceID="ei166" relatedToTime="t2" />
+
+<TLINK lid="l53" relType="BEFORE" eventInstanceID="ei167" relatedToEventInstance="ei143" />
+
+<TLINK lid="l54" relType="IS_INCLUDED" eventInstanceID="ei149" relatedToTime="t7" />
+
+<TLINK lid="l55" relType="BEFORE" eventInstanceID="ei169" relatedToEventInstance="ei143" />
+
+<TLINK lid="l56" relType="BEFORE" eventInstanceID="ei168" relatedToTime="t0" />
+
+<TLINK lid="l57" relType="AFTER" eventInstanceID="ei175" relatedToTime="t0" />
+
+<TLINK lid="l58" relType="BEFORE" eventInstanceID="ei170" relatedToEventInstance="ei143" />
+
+<TLINK lid="l59" relType="BEFORE" eventInstanceID="ei173" relatedToTime="t0" />
+
+<TLINK lid="l60" relType="BEFORE" eventInstanceID="ei180" relatedToEventInstance="ei142" />
+
+<TLINK lid="l61" relType="IS_INCLUDED" eventInstanceID="ei161" relatedToTime="t5" />
+
+<TLINK lid="l62" relType="BEFORE" eventInstanceID="ei142" relatedToEventInstance="ei144" />
+
+<TLINK lid="l63" relType="AFTER" eventInstanceID="ei180" relatedToTime="t0" />
+
+<TLINK lid="l64" relType="IS_INCLUDED" eventInstanceID="ei171" relatedToTime="t2" />
+
+<TLINK lid="l65" relType="BEFORE" eventInstanceID="ei158" relatedToTime="t0" />
+
+<TLINK lid="l66" relType="INCLUDES" eventInstanceID="ei147" relatedToTime="t0" />
+
+<TLINK lid="l67" relType="SIMULTANEOUS" eventInstanceID="ei149" relatedToEventInstance="ei157" />
+
+<TLINK lid="l68" relType="BEFORE" eventInstanceID="ei166" relatedToTime="t0" />
+
+<TLINK lid="l69" relType="AFTER" eventInstanceID="ei164" relatedToTime="t0" />
+
+<TLINK lid="l70" relType="AFTER" eventInstanceID="ei145" relatedToTime="t0" />
+
+<TLINK lid="l71" relType="AFTER" eventInstanceID="ei145" relatedToEventInstance="ei151" />
+
+<TLINK lid="l72" relType="IS_INCLUDED" eventInstanceID="ei158" relatedToTime="t7" />
+
+<TLINK lid="l73" relType="BEFORE" eventInstanceID="ei157" relatedToEventInstance="ei158" />
+
+<TLINK lid="l74" relType="BEFORE" eventInstanceID="ei157" relatedToTime="t0" />
+
+<TLINK lid="l75" relType="BEFORE" eventInstanceID="ei173" relatedToEventInstance="ei174" />
+
+<TLINK lid="l76" relType="BEFORE" eventInstanceID="ei174" relatedToEventInstance="ei175" />
+
+<TLINK lid="l77" relType="IS_INCLUDED" eventInstanceID="ei161" relatedToTime="t2" />
+
+<TLINK lid="l78" relType="SIMULTANEOUS" eventInstanceID="ei149" relatedToEventInstance="ei158" />
+
+<TLINK lid="l79" relType="AFTER" eventInstanceID="ei154" relatedToEventInstance="ei151" />
+
+<TLINK lid="l80" relType="BEFORE" eventInstanceID="ei153" relatedToTime="t0" />
+
+<TLINK lid="l81" relType="IS_INCLUDED" eventInstanceID="ei176" relatedToTime="t6" />
+
+<TLINK lid="l82" relType="IS_INCLUDED" eventInstanceID="ei171" relatedToTime="t5" />
+
+<TLINK lid="l83" relType="AFTER" eventInstanceID="ei150" relatedToTime="t0" />
+
+<TLINK lid="l84" relType="AFTER" eventInstanceID="ei153" relatedToEventInstance="ei155" />
+
+<TLINK lid="l85" relType="BEFORE" eventInstanceID="ei147" relatedToEventInstance="ei152" />
+
+<TLINK lid="l86" relType="IS_INCLUDED" eventInstanceID="ei164" relatedToTime="t1" />
+
+<TLINK lid="l87" relType="BEFORE" eventInstanceID="ei179" relatedToEventInstance="ei180" />
+
+<TLINK lid="l88" relType="IS_INCLUDED" eventInstanceID="ei178" relatedToTime="t0" />
+
+<TLINK lid="l89" relType="BEFORE" eventInstanceID="ei164" relatedToEventInstance="ei162" />
+
+<TLINK lid="l90" relType="BEFORE" eventInstanceID="ei180" relatedToEventInstance="ei144" />
+
+<TLINK lid="l91" relType="AFTER" eventInstanceID="ei169" relatedToTime="t0" />
+
+<TLINK lid="l92" relType="AFTER" eventInstanceID="ei179" relatedToEventInstance="ei144" />
+
+<TLINK lid="l93" relType="BEFORE" eventInstanceID="ei166" relatedToEventInstance="ei161" />
+
+<TLINK lid="l94" relType="AFTER" eventInstanceID="ei152" relatedToTime="t0" />
+
+<TLINK lid="l95" relType="BEFORE" eventInstanceID="ei177" relatedToEventInstance="ei178" />
+
+<TLINK lid="l96" relType="BEFORE" eventInstanceID="ei142" relatedToTime="t0" />
+
+<TLINK lid="l97" relType="IS_INCLUDED" eventInstanceID="ei144" relatedToTime="t0" />
+
+<TLINK lid="l98" relType="BEFORE" eventInstanceID="ei157" relatedToEventInstance="ei159" />
+
+<TLINK lid="l99" relType="BEFORE" eventInstanceID="ei176" relatedToEventInstance="ei178" />
+
+<TLINK lid="l100" relType="AFTER" eventInstanceID="ei148" relatedToEventInstance="ei151" />
+
+<TLINK lid="l101" relType="AFTER" eventInstanceID="ei170" relatedToTime="t0" />
+
+<TLINK lid="l102" relType="BEFORE" eventInstanceID="ei167" relatedToEventInstance="ei172" />
+
+<TLINK lid="l103" relType="BEFORE" eventInstanceID="ei154" relatedToTime="t0" />
+
+<TLINK lid="l104" relType="IS_INCLUDED" eventInstanceID="ei147" relatedToTime="t4" />
+
+<TLINK lid="l105" relType="INCLUDES" eventInstanceID="ei149" relatedToTime="t0" />
+
+<TLINK lid="l106" relType="BEFORE" eventInstanceID="ei162" relatedToTime="t0" />
+
+<TLINK lid="l107" relType="BEFORE" eventInstanceID="ei154" relatedToEventInstance="ei148" />
+
+<TLINK lid="l108" relType="BEFORE" eventInstanceID="ei169" relatedToEventInstance="ei170" />
+
+<TLINK lid="l109" relType="AFTER" eventInstanceID="ei143" relatedToTime="t0" />
+</TimeML>

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>CNN_20130321_821</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="2013-03-21" temporalFunction="false" functionInDocument="CREATION_TIME">March 21, 2013</TIMEX3></DCT>
+
+<TITLE>How Obama has weaponized wit</TITLE>
+
+<TEXT>
+Barack Obama would <EVENT eid="e4" class="OCCURRENCE">make</EVENT> a great stand-up comic, not because he's the funniest president ever but because he <EVENT eid="e21" class="OCCURRENCE">uses</EVENT> jokes the same way many of us comedians <EVENT eid="e30" class="OCCURRENCE">do</EVENT>: as a weapon.
+
+Traditionally, the (intentionally) funny lines by our presidents have <EVENT eid="e48" class="STATE">had</EVENT> one thing in common: They were self-deprecating. Sure, some presidents have <EVENT eid="e63" class="OCCURRENCE">used</EVENT> jokes to <EVENT eid="e66" class="OCCURRENCE">take</EVENT> jabs at their opponents, but not to the extent of Obama.
+
+During his tenure, he has increasingly <EVENT eid="e87" class="OCCURRENCE">unleashed</EVENT> <EVENT eid="e88" class="OCCURRENCE">biting</EVENT> comedic barbs against his critics and political adversaries. These jokes are <EVENT eid="e101" class="I_ACTION">intended</EVENT> to <EVENT eid="e103" class="OCCURRENCE">do</EVENT> more than simply <EVENT eid="e107" class="OCCURRENCE">entertain</EVENT> you. They <EVENT eid="e111" class="STATE">have</EVENT> an agenda.
+
+Obama's humor is often <EVENT eid="e120" class="OCCURRENCE">delivered</EVENT> the way a comedian <EVENT eid="e125" class="OCCURRENCE">dealing</EVENT> with a heckler would <EVENT eid="e130" class="OCCURRENCE">do</EVENT> it. He <EVENT eid="e134" class="I_ACTION">tries</EVENT> to <EVENT eid="e136" class="OCCURRENCE">undermine</EVENT> his opponents with it and <EVENT eid="e142" class="OCCURRENCE">get</EVENT> the crowd -- in this case the public -- on his side. I can <EVENT eid="e158" class="I_ACTION">assure</EVENT> you that having a crowd laugh at your critic/heckler is not only effective in <EVENT eid="e173" class="OCCURRENCE">dominating</EVENT> them, it's also very satisfying.
+
+</TEXT>
+
+<MAKEINSTANCE eventID="e142" eiid="ei215" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e30" eiid="ei212" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e111" eiid="ei222" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei219" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e158" eiid="ei224" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei207" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e66" eiid="ei214" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e63" eiid="ei225" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e120" eiid="ei218" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e125" eiid="ei223" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e87" eiid="ei220" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e88" eiid="ei221" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e134" eiid="ei209" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e136" eiid="ei211" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e130" eiid="ei206" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e48" eiid="ei217" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e107" eiid="ei213" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e101" eiid="ei208" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e103" eiid="ei210" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e173" eiid="ei216" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+
+<TLINK lid="l1" relType="INCLUDES" eventInstanceID="ei209" relatedToTime="t0" />
+
+<TLINK lid="l2" relType="INCLUDES" eventInstanceID="ei213" relatedToTime="t0" />
+
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei211" relatedToEventInstance="ei215" />
+
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei225" relatedToTime="t0" />
+
+<TLINK lid="l5" relType="INCLUDES" eventInstanceID="ei208" relatedToTime="t0" />
+
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei220" relatedToEventInstance="ei221" />
+
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei220" relatedToTime="t0" />
+
+<TLINK lid="l8" relType="INCLUDES" eventInstanceID="ei212" relatedToTime="t0" />
+
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei217" relatedToTime="t0" />
+
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei210" relatedToEventInstance="ei213" />
+
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei218" relatedToTime="t0" />
+
+<TLINK lid="l12" relType="INCLUDES" eventInstanceID="ei222" relatedToTime="t0" />
+</TimeML>

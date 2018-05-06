@@ -23,12 +23,54 @@ Evaluation has been conducted on the TempEval-3 Platinum test set. See table bel
 | NavyTime-1 | 0.798 | 0.807 | 0.803 | 
 | ------------- | ------------- | ------------- | ------------- |
 | NWR-only| 0.809 | 0.787 | 0.798 | 
-| Stanford+NWR | 0.806 | 0.799 | 0.803 | 
+| Stanford+NWR | 0.817 | 0.82 | 0.817 | 
 
-Both systems use Gold+Silver data in training.
+Both systems use Gold+Silver data in training .
 Pre-trained models can be downloaded: http://kyoto.let.vu.nl/~caselli/pre-trained-models.tar.gz 
 
-Convertion script from the CRF++ output to other formats (TimeML or XML) will be uploased soon.
+###### Event Attributes
+
+The script for extracting training and test format for the event attributes are stored in the event_attributes folder.
+The templates are available the event_attribute_template folder.
+
+Evaluation against the TempEval-3 Platinum test:
+
+| Sytem  | Class - F1 | Tense  - F1 | Aspect - F1 |
+| ------------- | ------------- | ------------- | ------------- |
+|  TE3-ATT1 | 0.718  | 0.594 | 0.735 |
+|  ClearTK | 0.678 | 0.616 | 0.716 | 
+| NavyTime-1 | 0.674 | 0.698 | 0.732 | 
+| ------------- | ------------- | ------------- | ------------- |
+| Stanford+NWR | 0.722 | 0.608 | 0.731 | 
+
+
+Note: for the Class attribute, we used both gold and silver data to train the model. For Tense and Aspect training was done using the gold data only.
+
+
+###### Temporal Relations
+
+Three subsets of temporal relations are available:
+
+- Event - Document Creation Time (DCT)
+- Event - Temporal expression (same sentence)
+- Event - Event (same sentence)
+
+Script for extrating the training data are available in the tlinks folder.
+The templates are available the tlinks_template folder.
+The best system assumes dense temporal relations (i.e. all events in the same sentence connected among them) in test mode.
+
+
+| Sytem  | P | R | F1 |
+| ------------- | ------------- | ------------- | ------------- |
+|  ClearTK | 0.34 | 0.284 | 0.309 | 
+| ------------- | ------------- | ------------- | ------------- |
+| Stanford+NWR | 0.238 | 0.392 | 0.296 | 
+
+
+###### LREC 2018 paper
+
+All materials in the LREC 2018 paper are available in the folder LREC18_materials.
+
 
 References and Links:
 - TempEval-3: https://www.cs.york.ac.uk/semeval-2013/task1/ 

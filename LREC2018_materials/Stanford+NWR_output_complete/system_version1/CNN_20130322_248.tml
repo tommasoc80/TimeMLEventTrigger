@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>CNN_20130322_248</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="2013-03-22" temporalFunction="false" functionInDocument="CREATION_TIME">March 22, 2013</TIMEX3></DCT>
+
+<TITLE>FAA to close 149 regional airport control towers, spare 40 others</TITLE>
+
+<TEXT>
+
+The FAA on <TIMEX3 type="DATE" value="2013-03-22" tid="t1">Friday</TIMEX3> <EVENT eid="e5" class="REPORTING">announced</EVENT> it will <EVENT eid="e8" class="OCCURRENCE">close</EVENT> 149 regional airport control towers because of forced spending cuts -- <EVENT eid="e20" class="OCCURRENCE">sparing</EVENT> 40 others that the FAA had been <EVENT eid="e28" class="I_STATE">expected</EVENT> to <EVENT eid="e30" class="OCCURRENCE">shutter</EVENT>.
+
+A four-week, phased <EVENT eid="e36" class="OCCURRENCE">closure</EVENT> of the 149 control towers will <EVENT eid="e43" class="ASPECTUAL">begin</EVENT> on <TIMEX3 type="DATE" value="2012-04-07" tid="t2">April 7</TIMEX3>, the FAA <EVENT eid="e50" class="REPORTING">said</EVENT>.
+
+The FAA had been <EVENT eid="e56" class="I_STATE">expected</EVENT> to <EVENT eid="e58" class="OCCURRENCE">announce</EVENT> the <EVENT eid="e60" class="OCCURRENCE">closure</EVENT> of 189 low- or moderate-volume towers <EVENT eid="e68" class="OCCURRENCE">staffed</EVENT> by contractors. Before <TIMEX3 type="DATE" value="2013-03-22" tid="t3">Friday</TIMEX3>'s <EVENT eid="e75" class="OCCURRENCE">announcement</EVENT>, it <EVENT eid="e78" class="REPORTING">said</EVENT> it would <EVENT eid="e81" class="I_STATE">consider</EVENT> <EVENT eid="e82" class="OCCURRENCE">keeping</EVENT> a tower open if the airport <EVENT eid="e89" class="I_ACTION">convinces</EVENT> the agency it is in the "national interest" to <EVENT eid="e101" class="OCCURRENCE">do</EVENT> so.
+
+By congressional mandate, the FAA must <EVENT eid="e111" class="OCCURRENCE">cut</EVENT> nearly $600 million from its nearly $48 billion budget <TIMEX3 type="DATE" value="2013" tid="t4">this fiscal year</TIMEX3>. Because the majority of its 47,000 employees are air traffic controllers, it is impossible to <EVENT eid="e143" class="OCCURRENCE">cut</EVENT> its budget without affecting controllers, the agency <EVENT eid="e152" class="REPORTING">says</EVENT>.
+
+</TEXT>
+
+<MAKEINSTANCE eventID="e43" eiid="ei336" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e111" eiid="ei339" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e75" eiid="ei331" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e78" eiid="ei338" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e152" eiid="ei346" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e36" eiid="ei345" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e30" eiid="ei350" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e89" eiid="ei343" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e82" eiid="ei341" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e81" eiid="ei340" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e60" eiid="ei335" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e68" eiid="ei332" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e56" eiid="ei344" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei351" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei334" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e28" eiid="ei348" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei342" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e50" eiid="ei337" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e58" eiid="ei349" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e143" eiid="ei347" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e101" eiid="ei333" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+
+<TLINK lid="l1" relType="INCLUDES" eventInstanceID="ei343" relatedToTime="t0" />
+
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei351" relatedToTime="t0" />
+
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei337" relatedToTime="t0" />
+
+<TLINK lid="l4" relType="AFTER" eventInstanceID="ei334" relatedToEventInstance="ei342" />
+
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei338" relatedToTime="t0" />
+
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei344" relatedToTime="t0" />
+
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei336" relatedToTime="t2" />
+
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei346" relatedToTime="t0" />
+</TimeML>

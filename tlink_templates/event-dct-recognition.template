@@ -1,0 +1,38 @@
+# the / is used for combinations
+
+# Unigram
+
+# 0 file_id | 1 sentence-id | 2 unique-id-E1 | 3 sentence-token-Id-E1 | 4 token-E1 | 5 lemma-E1 | 6 pos-E1 | 7 dep-rel-E1 | 8 gov-lemma-E1 | 9 pos-gov-E1 | 
+# 10 vn-class-E1 | 11 fn-class-E1 | 12 wn-class | 13 E1-tense | 14 E1-aspect | 15 E1-class | 16 E2-class |
+# 17 TLINK-existence
+#
+
+
+
+
+
+# Event1 - Features 
+################################
+U1:%x[0,4]
+U2:%x[0,5]
+U3:%x[0,6]
+U4:%x[0,7]
+U5:%x[0,8]
+U6:%x[0,6]/%x[0,7]/%x[0,9] #combo pos+dep-rel+pos-gov
+U10:%x[0,13]
+U11:%x[0,14]
+U12:%x[0,15]
+U13:%x[0,13]/%x[0,14] # combo tense-aspect E1
+
+# Event1 - Semantics - Lexicon
+#################################
+U7:%x[0,10]
+U8:%x[0,11]
+U9:%x[0,12]
+
+
+# Event2 - Features
+###############################
+U14:%x[0,16]
+
+

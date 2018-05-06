@@ -1,0 +1,89 @@
+# the / is used for combinations
+
+# Unigram
+
+# 0 file_id | 1 sentence-id | 2 unique-id-E1 | 3 sentence-token-Id-E1 | 4 token-E1 | 5 lemma-E1 | 6 pos-E1 | 7 dep-rel-E1 | 8 gov-lemma-E1 | 9 pos-gov-E1 | 
+# 10 vn-class-E1 | 11 fn-class-E1 | 12 wn-class | 13 E1-extent | 14 E1-class | 15 E1-tense | 16 E1-aspect | 17 unique-id-E2 | 18 sentence-Id-E2 | 19 token-E2 | 
+# 20 lemma-E2 | 21 pos-E2 | 22 dep-rel-E2 | 23 gov-lemma-E2 | 24 pos-gov-E2 | 25 vn-class-E2 | 26 fn-class-E2 | 27 wn-class-E2 | 28 E2-extent | 29 E2-class | 30 E2-tense 
+# 31 E-aspect | 32 token-distance-E1-E2 | 33 common-path pos | 34 common-path dep-rel | 35 common-path pos+dep-rel | 36 path-source pos | 37 path-source dep-rel | 38 path-source
+# pos+dep-rel | 39 path-target pos | 40 path-target dep-rel | 41 path-target pos+dep-rel | 42 token-signal-E1-E2 | 43 token-signa before E1 | 44 other-events between E1-E2 | 
+# 45 TLINK-existence
+#
+
+
+
+
+
+# Event1 - Features 
+################################
+U1:%x[0,4]
+U2:%x[0,5]
+U3:%x[0,6]
+U4:%x[0,7]
+U5:%x[0,8]
+U6:%x[0,6]/%x[0,7]/%x[0,9] #combo pos+dep-rel+pos-gov
+U10:%x[0,14]
+U11:%x[0,15]
+U12:%x[0,16]
+U13:%x[0,15]/%x[0,16] # combo tense-aspect E1
+
+# Event1 - Semantics - Lexicon
+#################################
+U7:%x[0,10]
+U8:%x[0,11]
+U9:%x[0,12]
+
+
+# Event2 - Features
+###############################
+U14:%x[0,19]
+U15:%x[0,20]
+U16:%x[0,21]
+U17:%x[0,22]
+U18:%x[0,23]
+U19:%x[0,21]/%x[0,22]/%x[0,24]  #combo pos+dep-rel+pos-gov
+U20:%x[0,29]
+U21:%x[0,30]
+U22:%x[0,31]
+U23:%x[0,30]/%x[0,31] # combo tense-aspect E2
+
+
+# Event2 - Semantics
+###############################
+U24:%x[0,25]
+U25:%x[0,26]
+U26:%x[0,27]
+
+
+# Path - E1 
+#################################
+U27:%x[0,36]
+U28:%x[0,37]
+U29:%x[0,38]
+
+
+# Path E2
+################################
+U30:%x[0,39]
+U31:%x[0,40]
+U32:%x[0,41]
+
+# Path E1 - E2
+###############################
+U33:%x[0,33]
+U34:%x[0,34]
+U35:%x[0,35]
+
+# E1 - E2 : event data combination
+#######################################
+
+U36:%x[0,38]/%x[0,41]
+U37:%x[0,15]/%x[0,30]
+U38:%x[0,15]/%x[0,16]/%x[0,30]/%x[0,31]
+U39:%x[0,32]
+U40:%x[0,43]
+U41:%x[0,44]
+U42:%x[0,14]/%x[0,29]
+
+
+

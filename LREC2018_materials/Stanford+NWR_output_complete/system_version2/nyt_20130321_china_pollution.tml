@@ -1,0 +1,315 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>nyt_20130321_china_pollution</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="2013-03-21" temporalFunction="false" functionInDocument="CREATION_TIME">2013-03-21</TIMEX3></DCT>
+
+<TITLE>As Pollution Worsens in China, Solutions Succumb to Infighting</TITLE>
+
+<TEXT>
+
+China's state leadership transition has <EVENT eid="e7" class="OCCURRENCE">taken</EVENT> place <TIMEX3 type="DATE" value="2013-03" tid="t1">this month</TIMEX3> against an ominous backdrop. More than 16,000 dead pigs have been <EVENT eid="e23" class="OCCURRENCE">found</EVENT> <EVENT eid="e24" class="OCCURRENCE">floating</EVENT> in rivers that provide drinking water to Shanghai. A haze akin to volcanic fumes <EVENT eid="e40" class="OCCURRENCE">cloaked</EVENT> the capital, <EVENT eid="e44" class="OCCURRENCE">causing</EVENT> convulsive <EVENT eid="e46" class="OCCURRENCE">coughing</EVENT> and <EVENT eid="e48" class="OCCURRENCE">obscuring</EVENT> the portrait of Mao Zedong on the gate to the Forbidden City.
+
+So severe are China's environmental woes, especially the noxious air, that top government officials have been <EVENT eid="e81" class="OCCURRENCE">forced</EVENT> to openly <EVENT eid="e84" class="REPORTING">acknowledge</EVENT> them. Fu Ying, the spokeswoman for the National People's Congress, <EVENT eid="e99" class="REPORTING">said</EVENT> she <EVENT eid="e101" class="OCCURRENCE">checked</EVENT> for smog <TIMEX3 type="DATE" value="XXXX-XX-XX" tid="t2">every morning</TIMEX3> after <EVENT eid="e107" class="OCCURRENCE">opening</EVENT> her curtains and <EVENT eid="e111" class="OCCURRENCE">kept</EVENT> at home face masks for her daughter and herself. Li Keqiang, the new prime minister, <EVENT eid="e130" class="REPORTING">said</EVENT> the air pollution had <EVENT eid="e135" class="OCCURRENCE">made</EVENT> him "quite upset" and <EVENT eid="e142" class="I_ACTION">vowed</EVENT> to "<EVENT eid="e145" class="OCCURRENCE">show</EVENT> even greater resolve and <EVENT eid="e150" class="OCCURRENCE">make</EVENT> more vigorous <EVENT eid="e153" class="OCCURRENCE">efforts</EVENT>" to <EVENT eid="e156" class="OCCURRENCE">clean</EVENT> it up.
+
+<TIMEX3 type="DATE" value="2013-02" tid="t3">Last month</TIMEX3>, after deadly air pollution hit record levels in northern China, officials <EVENT eid="e175" class="OCCURRENCE">led</EVENT> byWen Jiabao, then the prime minister, <EVENT eid="e184" class="OCCURRENCE">put</EVENT> forward strict new fuel standards that the oil companies had <EVENT eid="e195" class="OCCURRENCE">blocked</EVENT> for years. But there are doubts about whether the oil companies will comply, especially since oil officials <EVENT eid="e215" class="I_ACTION">resisted</EVENT> a similar government order for higher-grade fuel <TIMEX3 type="DATE" value="2009" tid="t4">four years ago</TIMEX3>. State-owned power companies have been similarly resistant. The companies regularly ignore government orders to <EVENT eid="e242" class="OCCURRENCE">upgrade</EVENT> coal-burning electricity plants, <EVENT eid="e247" class="REPORTING">according</EVENT> to ministry data. And as with the oil companies, the power companies <EVENT eid="e262" class="OCCURRENCE">exert</EVENT> an outsize influence over environmental policy debates.
+
+In <TIMEX3 type="DATE" value="2011" tid="t5">2011</TIMEX3>, during a round of discussions over stricter emissions standards, the China Electricity Council, which represents the companies, <EVENT eid="e294" class="OCCURRENCE">pushed</EVENT> back hard against the proposals, <EVENT eid="e301" class="REPORTING">saying</EVENT> that the costs of <EVENT eid="e306" class="OCCURRENCE">upgrading</EVENT> the plants would be too high.
+
+On <TIMEX3 type="DATE" value="2013-02-28" tid="t6">Feb. 28</TIMEX3>, Deutsche Bank <EVENT eid="e320" class="OCCURRENCE">released</EVENT> an analysts' note <EVENT eid="e325" class="REPORTING">saying</EVENT> that China's current economic policies would <EVENT eid="e333" class="OCCURRENCE">result</EVENT> in an enormous <EVENT eid="e337" class="OCCURRENCE">surge</EVENT> in coal consumption and automobile sales over <TIMEX3 type="DATE" value="202" tid="t7">the next decade</TIMEX3>. "China's air pollution will <EVENT eid="e355" class="OCCURRENCE">become</EVENT> a lot worse from the already unbearable level," the analysts <EVENT eid="e368" class="REPORTING">said</EVENT>, <EVENT eid="e370" class="OCCURRENCE">calling</EVENT> for drastic policy <EVENT eid="e374" class="OCCURRENCE">changes</EVENT> and "a strong government will to <EVENT eid="e382" class="I_ACTION">overcome</EVENT> the opposition from interest groups."
+
+The report <EVENT eid="e392" class="REPORTING">estimated</EVENT> that the number of passenger cars in China was on track to <EVENT eid="e405" class="OCCURRENCE">hit</EVENT> 400 million by <TIMEX3 type="DATE" value="2030" tid="t8">2030</TIMEX3>, up from 90 million <TIMEX3 type="DATE" value="PRESENT_REF" tid="t9">now</TIMEX3>.
+
+</TEXT>
+
+<MAKEINSTANCE eventID="e370" eiid="ei417" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e374" eiid="ei418" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e81" eiid="ei412" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e111" eiid="ei415" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e184" eiid="ei401" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e40" eiid="ei393" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e337" eiid="ei406" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e333" eiid="ei405" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e405" eiid="ei386" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e48" eiid="ei399" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e242" eiid="ei413" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e247" eiid="ei419" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e46" eiid="ei397" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e294" eiid="ei392" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e84" eiid="ei408" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e142" eiid="ei384" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e145" eiid="ei385" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e382" eiid="ei420" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e368" eiid="ei416" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e99" eiid="ei407" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e107" eiid="ei414" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e101" eiid="ei411" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e355" eiid="ei410" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e175" eiid="ei398" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e325" eiid="ei404" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e320" eiid="ei402" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e215" eiid="ei409" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e130" eiid="ei380" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e135" eiid="ei382" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei394" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e262" eiid="ei381" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei388" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei389" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e306" eiid="ei400" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e301" eiid="ei396" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e150" eiid="ei387" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e153" eiid="ei390" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e156" eiid="ei391" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e195" eiid="ei403" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e44" eiid="ei395" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e392" eiid="ei383" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei390" relatedToTime="t0" />
+
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei403" relatedToTime="t0" />
+
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei405" relatedToTime="t7" />
+
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei384" relatedToTime="t0" />
+
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei385" relatedToEventInstance="ei387" />
+
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei386" relatedToTime="t9" />
+
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei407" relatedToTime="t2" />
+
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei397" relatedToTime="t0" />
+
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei398" relatedToEventInstance="ei403" />
+
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei388" relatedToTime="t0" />
+
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei411" relatedToEventInstance="ei415" />
+
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei384" relatedToEventInstance="ei385" />
+
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei382" relatedToEventInstance="ei391" />
+
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei380" relatedToEventInstance="ei387" />
+
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei412" relatedToEventInstance="ei408" />
+
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei404" relatedToTime="t7" />
+
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei394" relatedToTime="t0" />
+
+<TLINK lid="l18" relType="IS_INCLUDED" eventInstanceID="ei401" relatedToTime="t3" />
+
+<TLINK lid="l19" relType="IS_INCLUDED" eventInstanceID="ei404" relatedToEventInstance="ei406" />
+
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei416" relatedToTime="t0" />
+
+<TLINK lid="l21" relType="AFTER" eventInstanceID="ei407" relatedToEventInstance="ei411" />
+
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei392" relatedToTime="t0" />
+
+<TLINK lid="l23" relType="AFTER" eventInstanceID="ei396" relatedToEventInstance="ei400" />
+
+<TLINK lid="l24" relType="BEFORE" eventInstanceID="ei414" relatedToEventInstance="ei415" />
+
+<TLINK lid="l25" relType="BEFORE" eventInstanceID="ei387" relatedToEventInstance="ei390" />
+
+<TLINK lid="l26" relType="IS_INCLUDED" eventInstanceID="ei402" relatedToEventInstance="ei406" />
+
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei393" relatedToEventInstance="ei399" />
+
+<TLINK lid="l28" relType="BEFORE" eventInstanceID="ei404" relatedToEventInstance="ei405" />
+
+<TLINK lid="l29" relType="BEFORE" eventInstanceID="ei415" relatedToTime="t0" />
+
+<TLINK lid="l30" relType="SIMULTANEOUS" eventInstanceID="ei397" relatedToEventInstance="ei399" />
+
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei402" relatedToTime="t0" />
+
+<TLINK lid="l32" relType="IS_INCLUDED" eventInstanceID="ei403" relatedToTime="t3" />
+
+<TLINK lid="l33" relType="BEFORE" eventInstanceID="ei392" relatedToEventInstance="ei396" />
+
+<TLINK lid="l34" relType="IS_INCLUDED" eventInstanceID="ei406" relatedToTime="t7" />
+
+<TLINK lid="l35" relType="BEFORE" eventInstanceID="ei384" relatedToEventInstance="ei387" />
+
+<TLINK lid="l36" relType="BEFORE" eventInstanceID="ei400" relatedToTime="t0" />
+
+<TLINK lid="l37" relType="AFTER" eventInstanceID="ei410" relatedToTime="t0" />
+
+<TLINK lid="l38" relType="BEFORE" eventInstanceID="ei383" relatedToEventInstance="ei386" />
+
+<TLINK lid="l39" relType="BEFORE" eventInstanceID="ei405" relatedToTime="t0" />
+
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei402" relatedToEventInstance="ei404" />
+
+<TLINK lid="l41" relType="AFTER" eventInstanceID="ei384" relatedToEventInstance="ei390" />
+
+<TLINK lid="l42" relType="BEFORE" eventInstanceID="ei407" relatedToEventInstance="ei415" />
+
+<TLINK lid="l43" relType="BEFORE" eventInstanceID="ei406" relatedToTime="t0" />
+
+<TLINK lid="l44" relType="BEFORE" eventInstanceID="ei410" relatedToEventInstance="ei417" />
+
+<TLINK lid="l45" relType="BEFORE" eventInstanceID="ei398" relatedToTime="t0" />
+
+<TLINK lid="l46" relType="IS_INCLUDED" eventInstanceID="ei417" relatedToTime="t0" />
+
+<TLINK lid="l47" relType="IS_INCLUDED" eventInstanceID="ei396" relatedToTime="t0" />
+
+<TLINK lid="l48" relType="AFTER" eventInstanceID="ei380" relatedToEventInstance="ei382" />
+
+<TLINK lid="l49" relType="BEFORE" eventInstanceID="ei385" relatedToEventInstance="ei391" />
+
+<TLINK lid="l50" relType="IS_INCLUDED" eventInstanceID="ei409" relatedToTime="t4" />
+
+<TLINK lid="l51" relType="IS_INCLUDED" eventInstanceID="ei383" relatedToTime="t8" />
+
+<TLINK lid="l52" relType="BEFORE" eventInstanceID="ei418" relatedToEventInstance="ei420" />
+
+<TLINK lid="l53" relType="IS_INCLUDED" eventInstanceID="ei380" relatedToTime="t0" />
+
+<TLINK lid="l54" relType="BEFORE" eventInstanceID="ei384" relatedToEventInstance="ei391" />
+
+<TLINK lid="l55" relType="BEFORE" eventInstanceID="ei383" relatedToTime="t0" />
+
+<TLINK lid="l56" relType="BEFORE" eventInstanceID="ei382" relatedToEventInstance="ei384" />
+
+<TLINK lid="l57" relType="IS_INCLUDED" eventInstanceID="ei405" relatedToEventInstance="ei406" />
+
+<TLINK lid="l58" relType="IS_INCLUDED" eventInstanceID="ei419" relatedToTime="t0" />
+
+<TLINK lid="l59" relType="AFTER" eventInstanceID="ei401" relatedToEventInstance="ei403" />
+
+<TLINK lid="l60" relType="INCLUDES" eventInstanceID="ei416" relatedToEventInstance="ei417" />
+
+<TLINK lid="l61" relType="IS_INCLUDED" eventInstanceID="ei383" relatedToTime="t9" />
+
+<TLINK lid="l62" relType="BEFORE" eventInstanceID="ei411" relatedToTime="t0" />
+
+<TLINK lid="l63" relType="IS_INCLUDED" eventInstanceID="ei402" relatedToTime="t7" />
+
+<TLINK lid="l64" relType="AFTER" eventInstanceID="ei410" relatedToEventInstance="ei416" />
+
+<TLINK lid="l65" relType="BEFORE" eventInstanceID="ei382" relatedToTime="t0" />
+
+<TLINK lid="l66" relType="INCLUDES" eventInstanceID="ei382" relatedToEventInstance="ei390" />
+
+<TLINK lid="l67" relType="AFTER" eventInstanceID="ei380" relatedToEventInstance="ei390" />
+
+<TLINK lid="l68" relType="AFTER" eventInstanceID="ei416" relatedToEventInstance="ei418" />
+
+<TLINK lid="l69" relType="BEFORE" eventInstanceID="ei416" relatedToEventInstance="ei420" />
+
+<TLINK lid="l70" relType="IS_INCLUDED" eventInstanceID="ei402" relatedToTime="t6" />
+
+<TLINK lid="l71" relType="IS_INCLUDED" eventInstanceID="ei396" relatedToTime="t5" />
+
+<TLINK lid="l72" relType="IS_INCLUDED" eventInstanceID="ei415" relatedToTime="t2" />
+
+<TLINK lid="l73" relType="BEFORE" eventInstanceID="ei382" relatedToEventInstance="ei387" />
+
+<TLINK lid="l74" relType="BEFORE" eventInstanceID="ei392" relatedToEventInstance="ei400" />
+
+<TLINK lid="l75" relType="IS_INCLUDED" eventInstanceID="ei411" relatedToTime="t2" />
+
+<TLINK lid="l76" relType="IS_INCLUDED" eventInstanceID="ei392" relatedToTime="t5" />
+
+<TLINK lid="l77" relType="AFTER" eventInstanceID="ei387" relatedToTime="t0" />
+
+<TLINK lid="l78" relType="BEFORE" eventInstanceID="ei414" relatedToTime="t0" />
+
+<TLINK lid="l79" relType="BEFORE" eventInstanceID="ei393" relatedToEventInstance="ei397" />
+
+<TLINK lid="l80" relType="BEFORE" eventInstanceID="ei382" relatedToEventInstance="ei385" />
+
+<TLINK lid="l81" relType="BEFORE" eventInstanceID="ei393" relatedToEventInstance="ei395" />
+
+<TLINK lid="l82" relType="BEFORE" eventInstanceID="ei402" relatedToEventInstance="ei405" />
+
+<TLINK lid="l83" relType="AFTER" eventInstanceID="ei413" relatedToEventInstance="ei419" />
+
+<TLINK lid="l84" relType="AFTER" eventInstanceID="ei386" relatedToTime="t0" />
+
+<TLINK lid="l85" relType="AFTER" eventInstanceID="ei413" relatedToTime="t0" />
+
+<TLINK lid="l86" relType="IS_INCLUDED" eventInstanceID="ei404" relatedToTime="t6" />
+
+<TLINK lid="l87" relType="IS_INCLUDED" eventInstanceID="ei414" relatedToTime="t2" />
+
+<TLINK lid="l88" relType="BEFORE" eventInstanceID="ei380" relatedToEventInstance="ei391" />
+
+<TLINK lid="l89" relType="BEFORE" eventInstanceID="ei417" relatedToEventInstance="ei418" />
+
+<TLINK lid="l90" relType="AFTER" eventInstanceID="ei393" relatedToTime="t0" />
+
+<TLINK lid="l91" relType="BEFORE" eventInstanceID="ei418" relatedToTime="t0" />
+
+<TLINK lid="l92" relType="BEFORE" eventInstanceID="ei380" relatedToEventInstance="ei384" />
+
+<TLINK lid="l93" relType="INCLUDES" eventInstanceID="ei381" relatedToTime="t0" />
+
+<TLINK lid="l94" relType="BEFORE" eventInstanceID="ei389" relatedToTime="t0" />
+
+<TLINK lid="l95" relType="BEFORE" eventInstanceID="ei388" relatedToEventInstance="ei389" />
+
+<TLINK lid="l96" relType="BEFORE" eventInstanceID="ei409" relatedToTime="t0" />
+
+<TLINK lid="l97" relType="IS_INCLUDED" eventInstanceID="ei404" relatedToTime="t0" />
+
+<TLINK lid="l98" relType="BEFORE" eventInstanceID="ei401" relatedToTime="t0" />
+
+<TLINK lid="l99" relType="BEFORE" eventInstanceID="ei410" relatedToEventInstance="ei418" />
+
+<TLINK lid="l100" relType="IS_INCLUDED" eventInstanceID="ei394" relatedToTime="t1" />
+
+<TLINK lid="l101" relType="BEFORE" eventInstanceID="ei387" relatedToEventInstance="ei391" />
+
+<TLINK lid="l102" relType="SIMULTANEOUS" eventInstanceID="ei395" relatedToEventInstance="ei399" />
+
+<TLINK lid="l103" relType="AFTER" eventInstanceID="ei420" relatedToTime="t0" />
+
+<TLINK lid="l104" relType="BEFORE" eventInstanceID="ei380" relatedToEventInstance="ei385" />
+
+<TLINK lid="l105" relType="BEFORE" eventInstanceID="ei410" relatedToEventInstance="ei420" />
+
+<TLINK lid="l106" relType="IS_INCLUDED" eventInstanceID="ei405" relatedToTime="t6" />
+
+<TLINK lid="l107" relType="IS_INCLUDED" eventInstanceID="ei399" relatedToTime="t0" />
+
+<TLINK lid="l108" relType="BEFORE" eventInstanceID="ei386" relatedToTime="t8" />
+
+<TLINK lid="l109" relType="BEFORE" eventInstanceID="ei395" relatedToTime="t0" />
+
+<TLINK lid="l110" relType="AFTER" eventInstanceID="ei411" relatedToEventInstance="ei414" />
+
+<TLINK lid="l111" relType="BEFORE" eventInstanceID="ei407" relatedToTime="t0" />
+
+<TLINK lid="l112" relType="IS_INCLUDED" eventInstanceID="ei400" relatedToTime="t5" />
+
+<TLINK lid="l113" relType="BEFORE" eventInstanceID="ei391" relatedToTime="t0" />
+
+<TLINK lid="l114" relType="IS_INCLUDED" eventInstanceID="ei408" relatedToTime="t0" />
+
+<TLINK lid="l115" relType="INCLUDES" eventInstanceID="ei385" relatedToTime="t0" />
+
+<TLINK lid="l116" relType="IS_INCLUDED" eventInstanceID="ei398" relatedToTime="t3" />
+
+<TLINK lid="l117" relType="BEFORE" eventInstanceID="ei417" relatedToEventInstance="ei420" />
+
+<TLINK lid="l118" relType="BEFORE" eventInstanceID="ei412" relatedToTime="t0" />
+
+<TLINK lid="l119" relType="SIMULTANEOUS" eventInstanceID="ei395" relatedToEventInstance="ei397" />
+
+<TLINK lid="l120" relType="BEFORE" eventInstanceID="ei390" relatedToEventInstance="ei391" />
+
+<TLINK lid="l121" relType="BEFORE" eventInstanceID="ei398" relatedToEventInstance="ei401" />
+
+<TLINK lid="l122" relType="BEFORE" eventInstanceID="ei385" relatedToEventInstance="ei390" />
+
+<TLINK lid="l123" relType="AFTER" eventInstanceID="ei407" relatedToEventInstance="ei414" />
+
+<TLINK lid="l124" relType="IS_INCLUDED" eventInstanceID="ei406" relatedToTime="t6" />
+</TimeML>

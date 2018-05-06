@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>CNN_20130322_314</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="2013-03-22" temporalFunction="false" functionInDocument="CREATION_TIME">March 22, 2013</TIMEX3></DCT>
+
+<TITLE>Obama gets diplomatic coup before heading to refugee-flooded Jordan</TITLE>
+
+<TEXT>
+
+President Barack Obama <EVENT eid="e4" class="OCCURRENCE">arrived</EVENT> in refugee-flooded Jordan on <TIMEX3 type="DATE" value="2013-03-22" tid="t1">Friday</TIMEX3> after <EVENT eid="e11" class="OCCURRENCE">scoring</EVENT> a diplomatic <EVENT eid="e14" class="OCCURRENCE">coup</EVENT> just before <EVENT eid="e17" class="OCCURRENCE">leaving</EVENT> Israel when Prime Minister Benjamin Netanyahu <EVENT eid="e24" class="OCCURRENCE">apologized</EVENT> to Turkey for a 2010 commando <EVENT eid="e31" class="OCCURRENCE">raid</EVENT> that <EVENT eid="e33" class="OCCURRENCE">killed</EVENT> nine activists on a Turkish vessel in a Gaza-bound flotilla.
+
+The apology, long <EVENT eid="e49" class="OCCURRENCE">sought</EVENT> by Turkish Prime Minister Recep Erdogan, <EVENT eid="e57" class="OCCURRENCE">eased</EVENT> strained feelings between Turkey and Israel, two vital U.S. allies in the Middle East.
+
+It <EVENT eid="e75" class="OCCURRENCE">happened</EVENT> in a phone call to Erdogan during a final <EVENT eid="e85" class="OCCURRENCE">meeting</EVENT> between Obama and Netanyahu at Ben Gurion International Airport in Tel Aviv minutes before Air Force One <EVENT eid="e103" class="OCCURRENCE">departed</EVENT> for Jordan to <EVENT eid="e107" class="OCCURRENCE">complete</EVENT> the president's Middle East swing. It is the first foreign <EVENT eid="e120" class="OCCURRENCE">trip</EVENT> of his second term.
+
+A statement from Netanyahu's office <EVENT eid="e132" class="REPORTING">said</EVENT> the apology included an <EVENT eid="e137" class="OCCURRENCE">offer</EVENT> of compensation. However, there was confusion later when the Israeli government <EVENT eid="e151" class="OCCURRENCE">dropped</EVENT> a reference in its original statement to <EVENT eid="e159" class="OCCURRENCE">normalized</EVENT> relations between the countries with a <EVENT eid="e166" class="OCCURRENCE">return</EVENT> of ambassadors.
+
+There also was no word on whether the once-close nations would <EVENT eid="e181" class="ASPECTUAL">resume</EVENT> the joint military <EVENT eid="e185" class="OCCURRENCE">exercises</EVENT> that were <EVENT eid="e188" class="ASPECTUAL">suspended</EVENT> after the flotilla <EVENT eid="e192" class="OCCURRENCE">raid</EVENT>.
+
+Turkey had been <EVENT eid="e197" class="OCCURRENCE">prosecuting</EVENT> four Israeli soldiers in absentia and Israel initially <EVENT eid="e206" class="REPORTING">said</EVENT> the two leaders <EVENT eid="e210" class="I_ACTION">agreed</EVENT> to the <EVENT eid="e213" class="OCCURRENCE">cancellation</EVENT> of legal steps against the troops. Later, however, its amended statement omitted that <EVENT eid="e230" class="OCCURRENCE">action</EVENT> as well.
+
+</TEXT>
+
+<MAKEINSTANCE eventID="e166" eiid="ei362" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e49" eiid="ei363" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e120" eiid="ei378" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei359" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e210" eiid="ei372" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e213" eiid="ei373" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e75" eiid="ei370" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e188" eiid="ei367" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e181" eiid="ei364" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e185" eiid="ei365" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e85" eiid="ei379" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e132" eiid="ei352" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e137" eiid="ei353" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e31" eiid="ei360" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e33" eiid="ei361" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e103" eiid="ei376" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e107" eiid="ei377" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e206" eiid="ei371" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e57" eiid="ei374" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e192" eiid="ei368" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e197" eiid="ei369" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e159" eiid="ei366" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e151" eiid="ei357" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei358" tense="PAST" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e230" eiid="ei375" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei356" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei355" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e11" eiid="ei354" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei365" relatedToEventInstance="ei367" />
+
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei371" relatedToTime="t0" />
+
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei352" relatedToTime="t0" />
+
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei370" relatedToEventInstance="ei379" />
+
+<TLINK lid="l5" relType="AFTER" eventInstanceID="ei354" relatedToEventInstance="ei355" />
+
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei369" relatedToTime="t0" />
+
+<TLINK lid="l7" relType="AFTER" eventInstanceID="ei365" relatedToEventInstance="ei368" />
+
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei367" relatedToEventInstance="ei368" />
+
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei355" relatedToEventInstance="ei356" />
+
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei370" relatedToTime="t0" />
+
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei359" relatedToTime="t1" />
+
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei354" relatedToTime="t1" />
+
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei355" relatedToTime="t1" />
+</TimeML>

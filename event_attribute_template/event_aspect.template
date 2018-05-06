@@ -1,0 +1,100 @@
+# the / is used for combinations
+
+# Unigram
+
+# 0 file_id | 1 unique_token_id | 2 sent_id | 3 token_sentence_id | 4 token | 5 lemma | 6 pos | 
+# 7 syntactic_dep_label | 8 syntactic_dep_lemma | 9 dep_lemma_pos | 
+# | 10(38) path2ROOT full | 11(39) path2ROOT: pos only | 12(40) path2ROOT: lemma only | 13(41) path2ROOT: dep label only |
+# 14(42) path2ROOT: pos-dep label | 15 (48) NER_type |16(49) BIO_timex | 17(50) vn_class | 
+# 18(51) fn_class | 19(52) wn_class | 20 sem-roles | 21 predicate lemma, role, pos | 22 predicate lemma role |
+# 23 sem-role predicate | 
+# 24(58) BIO_event_extent | 25(59) BIO_event_class
+
+
+#  token
+#-----------------------------
+
+U3:%x[0,4]
+
+# lemma
+#-----------------------------
+
+U12:%x[0,5]
+
+# five window (bigrams)
+#U15:%x[-2,9]/%x[-1,9]
+#U16:%x[-1,9]/%x[0,9]
+#U17:%x[0,9]/%x[1,9]
+#U18:%x[1,9]/%x[2,9]
+
+# five window (trigrams)
+#U19:%x[-2,9]/%x[-1,9]/%x[0,9]
+#U20:%x[-1,9]/%x[0,9]/%x[1,9]
+#U21:%x[0,9]/%x[1,9]/%x[2,9]
+
+
+# 5 window POS 
+#--------------------------------
+
+U24:%x[0,6]
+
+# five window POS (bigrams)
+#U27:%x[-2,4]/%x[-1,4]
+#U28:%x[-1,4]/%x[0,4]
+#U29:%x[0,4]/%x[1,4]
+#U30:%x[1,4]/%x[2,4]
+
+# five window POS (trigrams)
+#U31:%x[-2,4]/%x[-1,4]/%x[0,4]
+#U32:%x[-1,4]/%x[0,4]/%x[1,4]
+#U33:%x[0,4]/%x[1,4]/%x[2,4]
+
+# lemma-pos + dep-rel-lemmagov-posgov
+#--------------------------------
+
+#U49:%x[0,7]/%x[0,8]/%x[0,9]
+U49:%x[0,5]/%x[0,6]/%x[0,7]/%x[0,8]/%x[0,9]
+
+# path2root 
+#--------------------------------
+
+#U36:%x[0,38]
+#U50:%x[0,39]
+#U51:%x[0,40]
+#U52:%x[0,41]
+#U53:%x[0,42]
+
+U53:%x[0,6]/%x[0,7]/%x[0,14]
+
+# argument structure
+#-------------------------------
+
+U46:%x[0,20]
+U54:%x[0,21]
+U55:%x[0,22]
+U56:%x[0,23]
+
+# predicate 
+#-------------------------------
+
+#U45:%x[0,46]
+#U56:%x[0,47]
+
+# event label
+#------------------------------
+U44:%x[0,24]
+
+# semantic features
+#-----------------------------
+U43:%x[0,17]
+U47:%x[0,18]
+U48:%x[0,19]
+
+
+# modality feature 
+#--------------------------------
+#U42:%x[0,5]/%x[0,6]/%x[0,17]
+
+
+# Bigram
+#B
