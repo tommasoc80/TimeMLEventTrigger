@@ -1,5 +1,8 @@
 # TimeMLEventTrigger
 
+[![DOI](https://zenodo.org/badge/84806129.svg)](https://zenodo.org/badge/latestdoi/84806129)
+
+
 This repo contains convertion scripts and models to automatically extract event triggers following the TimeML Annotation Guidelines.
 The CRF models has been developed using the CRF++ Toolkit (https://taku910.github.io/crfpp/#format).
 
